@@ -1,12 +1,12 @@
 # NBA-2023-Win-Lose-Predictor
 ## Overview 
-This project centered around a model that predicts the outcome of the NBA's next season. 205 Sports Solutions was founded in order to help NBA teams have a better idea of their future by the numbers in order to know what to expect with their future and thus set out the correct long term plan for success. In order to create our model we use data based on ESPN and Basketball-Reference.com from the 2001 to the 2022 NBA seasons and analyzed 1,821 games during that span.
+This project centered around a model that predicts the outcome of the NBA's next season. 205 Sports Solutions was founded in order to help NBA teams have a better idea of their future by the numbers in order to know what to expect with their future and thus set out the correct long term plan for success. In order to create our model we use data based on [ESPN](https://www.espn.com/nba/stats/player/_/season/2001/seasontype/2/table/offensive/sort/avgPoints/dir/desc), [nba.com](https://www.nba.com/stats/teams/boxscores/?Season=2021-22&SeasonType=Regular%20Season) and [Basketball-Reference.com](https://www.basketball-reference.com/teams/) from the 2001 to the 2022 NBA seasons and analyzed 1,821 games during that span.
 
 ## Business Problem
-We were hired by __ to create a model that can predict future outcomes of NBA games in regards to winning or losing. By doing so we can aid our stakeholders in accumulating more money through betting on NBA games.
+We were hired by an anonymous gambler to create a model that can predict future outcomes of NBA games in regards to winning or losing. By doing so we can aid our stakeholders in accumulating more money through betting on NBA games.
 
 ## Data Understanding 
-The data sets we used to create our models came from two ESPN databases and data from Basketball-Reference.com. The data included 1,821 games from seasons between 2011-2022. We then combined the 3 data sets by player ranking, team, and game data which combined the player and team data sets which then allowed for the player rank to be next to each player and then we found each team in the game data sets and added in the player rankings.  
+The data sets we used to create our models came from an [ESPN](https://www.espn.com/nba/stats/player/_/season/2001/seasontype/2/table/offensive/sort/avgPoints/dir/desc) database, [nba.com](https://www.nba.com/stats/teams/boxscores/?Season=2021-22&SeasonType=Regular%20Season) and data from [Basketball-Reference.com](https://www.basketball-reference.com/teams/). The data included 1,821 games from seasons between 2011-2022. We then combined the 3 data sets by player ranking, team, and game data which combined the player and team data sets which then allowed for the player rank to be next to each player and then we found each team in the game data sets and added in the player rankings.  
 
 ## Methods
 
@@ -34,4 +34,33 @@ Despite our model needing some improvements, overall the model successfully pred
 Our model needs some improvements as far as the amount of data included and not taking into account for inactive players. Going forward we also plan to develop an app or website that is interactive and allows for individual matchup predictions and not just championship and series predictions.
 
 
+## For More Information
 
+- [ESPN](https://www.espn.com/nba/stats/player/_/season/2001/seasontype/2/table/offensive/sort/avgPoints/dir/desc)
+- [nba.com](https://www.nba.com/stats/teams/boxscores/?Season=2021-22&SeasonType=Regular%20Season)
+- [Basketball-Reference.com](https://www.basketball-reference.com/teams/)
+
+## Repository Structure
+```
+├── Data
+|  ├── NBA Win-Loss.xlsx                    <- Initial NBA data W/L
+|  ├── Team_bracket_2022.PNG                <- Team Bracket pic
+|  ├── win_loss_completed_df.csv            <- completed NBA data W/L
+|  ├── win_loss_df_seasonal.csv             <- Initial NBA season data W/L
+|  ├── win_loss_seasonal_completed_df.csv   <- completed NBA season data W/L (Broken)
+|  ├── year_position.pickle                 <- dict of positions given year
+|  └──year_team.pickle                      <- dict of teams given year
+├── Repos
+|  ├── Connor Repo
+|  |  ├── Bracket.ipynb                     <- Notebook: create bracket
+|  |  ├── Connor Repo.ipynb                 <- Notebook: initial looking at and collecting data
+|  |  ├── ModelingNotebook.ipynb            <- Notebook: Modeling
+|  |  ├── More data.ipynb                   <- Notebook: collecting more date
+|  |  ├── Sandbox.ipynb                     <- Notebook: Sandbox
+|  |  └── position_ranking.py               <- created py
+|  ├── James Repo
+|  |  └── James Repo.ipynb                  <- Notebook: Modeling
+├── .gitignore                              <- Basic git ignore
+├── Final Notebook.ipynb                    <- Final notebook
+└── README.md                               X- You Are Here
+```
