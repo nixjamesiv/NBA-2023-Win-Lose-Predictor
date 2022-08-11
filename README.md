@@ -2,6 +2,20 @@
 ## Overview 
 This project centered around a model that predicts the outcome of the NBA's next season. 205 Sports Solutions was founded in order to help NBA teams have a better idea of their future by the numbers in order to know what to expect with their future and thus set out the correct long term plan for success. In order to create our model we use data based on [ESPN](https://www.espn.com/nba/stats/player/_/season/2001/seasontype/2/table/offensive/sort/avgPoints/dir/desc), [nba.com](https://www.nba.com/stats/teams/boxscores/?Season=2021-22&SeasonType=Regular%20Season) and [Basketball-Reference.com](https://www.basketball-reference.com/teams/) from the 2001 to the 2022 NBA seasons and analyzed 1,821 games during that span.
 
+## Table of Contents
+- [Overview](#overview)
+- [Business Problem](#business-problem)
+- [Data Understanding](#data-understanding)
+- [Methods](#methods)
+- - [Data Preperation](#data-preperation)
+- - [Modeling](#modeling)
+- [Results](#results)
+- [Conclusion](#conclusion)
+- [Future Work](#future-work)
+- [For More Information](#for-more-information)
+- [Repository Structure](#repository-structure)
+
+
 ## Business Problem
 We were hired by an anonymous gambler to create a model that can predict future outcomes of NBA games in regards to winning or losing. By doing so we can aid our stakeholders in accumulating more money through betting on NBA games.
 
@@ -11,7 +25,7 @@ The data sets we used to create our models came from an [ESPN](https://www.espn.
 ## Methods
 
 
-### Data Prep
+### Data Preperation
 We began by turning all of the string nulls into the mean. We chose the mean because the ranking contained nulls, an upper and lower bound, and was continuous so there were no gaps in the rankings. 
 
 ### Modeling
@@ -62,5 +76,6 @@ Our model needs some improvements as far as the amount of data included and not 
 |  |  └── James Repo.ipynb                  <- Notebook: Modeling
 ├── .gitignore                              <- Basic git ignore
 ├── Final Notebook.ipynb                    <- Final notebook
+├── NBA-2023-Win-Lose-Predictor.pdf
 └── README.md                               X- You Are Here
 ```
