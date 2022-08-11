@@ -1,5 +1,5 @@
 # jupyter junk files
-*/.ipynb_checkpoints
+.ipynb_checkpoints/
 
 # datafiles
 /data
