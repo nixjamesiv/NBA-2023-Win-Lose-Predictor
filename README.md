@@ -37,7 +37,7 @@ Our XGBoost model was an improvement overall upon our previous decision tree mod
 
 ![](Data/Team_bracket_2022.PNG)
 
-Below we can see how close we got to the actual 2022 bracket. The red Xs indicate what we got wrong with how far off we were written above. The green boxes are where our model predicted correctly. We can see that overall our model got 6 out of 15 correct but the matchups we got wrong most were fairly close. 
+Above we can see how close we got to the actual 2022 bracket. The red Xs indicate what we got wrong with how far off we were written above. The green boxes are where our model predicted correctly. We can see that overall our model got 6 out of 15 correct but the matchups we got wrong most were fairly close. 
 
 We can see that many of the games we got wrong was because our model does not take into account inactive players due to reasons such as injury, suspension, vaxination status, or otherwise.
 
