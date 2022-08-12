@@ -56,12 +56,12 @@ Our model needs some improvements as far as the amount of data included and not 
 
 ## Repository Structure
 ```
-├── Data
+├── Data                                    <- Data include to allow for use
 |  ├── NBA Win-Loss.xlsx                    <- Initial NBA data W/L
 |  ├── Team_bracket_2022.PNG                <- Team Bracket pic
 |  ├── win_loss_completed_df.csv            <- completed NBA data W/L
 |  ├── win_loss_df_seasonal.csv             <- Initial NBA season data W/L
-|  ├── win_loss_seasonal_completed_df.csv   <- completed NBA season data W/L (Broken)
+|  ├── win_loss_seasonal_completed_df.csv   <- completed NBA season data W/L (Not Finished)
 |  ├── year_position.pickle                 <- dict of positions given year
 |  └──year_team.pickle                      <- dict of teams given year
 ├── Repos
