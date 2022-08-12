@@ -76,6 +76,6 @@ Our model needs some improvements as far as the amount of data included and not 
 |  |  └── James Repo.ipynb                  <- Notebook: Modeling
 ├── .gitignore                              <- Basic git ignore
 ├── Final Notebook.ipynb                    <- Final notebook
-├── NBA-2023-Win-Lose-Predictor.pdf
+├── NBA-2023-Win-Lose-Predictor.pdf         <- pdf of presentation slides
 └── README.md                               X- You Are Here
 ```
